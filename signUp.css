@@ -3,116 +3,83 @@ body {
 }
 .signUpBackground {
     margin-top: 100px;
-    width: 40%;
+    width: 40px;
     height: 550px;
-    margin-left: 30%;
+    margin-left: 500px;
     padding-top: 100px;
 }
 .signUpCard {
-    
     background-color:whitesmoke;
-    width: 300px;
-    height: 320px;
+    width: 317px;
+    height: 330px;
     padding: 50px;
     border: 0px solid rgb(250, 245, 245);
     margin-left: 160px; 
-    border-radius: 25px;
+    border-radius: 15px;
+
 }
 .signUpHeader h1 {
     margin-top: 5px;
+    margin-bottom: 0px;
     text-align: center;
     font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.signUpHeader p {
-    margin-top: -15px;
+.signUpHeader p {  
+    margin-top: 10px;
     text-align: center;  
 }
 .signUpHeader p span a {
     color: rgb(90, 146, 252) ;
-    margin-top: -15px;
     text-align: center;
 }
 .inputBoxes {
+    position:relative; 
+    right:40px;
+    padding-left : 10px;
     margin-top: 30px;
-    margin-left: -40px;
+}
+.inputBoxes input {
+    padding-left: 15px;
+    border: 0px;
+    font-style: italic;
+    font-size: 15px;
+    height: 42px;
+    width: 350px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
 }
 .fullName {
     display: flex;
-    margin: 10px;
-    margin-top: -1px;
-    border-radius: 10px;
 }
-
-.userName input{
-    padding-left: 15px;
-    font-style: italic;
-    font-size: 15px;
-    border: 0px rgb(250, 245, 245);
-    border-radius: 10px;
-    width : 340px;
-    height : 40px;
-    margin: 10px;
-    margin-top: -1px;
+.fullName input{
+    width: 165px;
 }
-.email {
-    /* margin-top: -40px; */
-    margin: 10px;
-    margin-top: -10px;
+.firstName input{
+    margin-right: 5px;
 }
-.email input {
-    padding-left: 15px;
-    font-style: italic;
-    border: 0px  rgb(250, 245, 245);
-    font-size: 15px;
-    border-radius: 10px;
-    width : 340px;
-    height : 40px;
+.footer {
+    position:relative; 
+    right: 28px; 
 }
-.footer button{
-    border: 0px  rgb(250, 245, 245);
+.footer button {
     background-color: rgb(90, 146, 252);
-    border-radius: 10px;
-    margin: -1px;
-    margin-left : 13px;
-    width : 355px;
-    height : 50px;
+    margin-bottom: 35px;
+    border : 0px;
+    height: 42px;
+    width: 365px;
+    border-radius: 15px;
     color: rgb(250, 245, 245);
     font-size: 15px;
     font-style: italic;
+    
 }
 .footer input {
-    margin-top : 30px;
-    margin-left : 20px;
-}
-.footer input span {
-    margin-left : 20px;
-
+    margin-left: 5px;
 }
 .termsAndServices {
     text-decoration:none ;
     color:rgb(90, 146, 252) ;
-}
-.fullName input {
-    margin-left: -10px;
-    padding-left: 15px;
-    font-style: italic;
-    font-family: sans-serif;
-    border: 0px rgb(250, 245, 245);
-    font-size: 15px;
-    width:160px;
-    height:40px;
-    border-radius: 10px;
-
-}
-.lastName input {
-    margin-left: -5px;
-    padding-left: 15px;
-    font-style: italic;
-    border: 0px  rgb(250, 245, 245);
-    font-size: 15px;
-    width:160px;
-    height:40px;
-    border-radius: 10px;
 }
 
 
